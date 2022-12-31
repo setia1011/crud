@@ -42,7 +42,7 @@
                     </p>
                 </div>
                 <input type="hidden" name="action" value="login">
-                <input type="submit" class="button is-success" value="Submit">
+                <input type="submit" class="button is-success" value="Login">
             </form>
         </div>
     </div>
