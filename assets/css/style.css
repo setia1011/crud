@@ -1,0 +1,27 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+#header {
+    border-bottom: 1px solid #8080802b;
+}
+#main {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.exit {
+    font-size: 2em;
+    padding: 0;
+    color: #f14668 !important;
+    height: 1em;
+}
+.footer {
+    padding: 1em 0;
+}
+
+
+@media screen and (max-width: 768px) {
+    .navbar-brand .navbar-item, .navbar-tabs .navbar-item {
+        padding: 0;
+    }
+}
