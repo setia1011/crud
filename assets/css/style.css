@@ -17,8 +17,18 @@
 }
 .footer {
     padding: 1em 0;
+    padding: 1em 0;
+    position: absolute;
+    width: 100%;
+    bottom: 0;
 }
 
+@media screen and (max-width: 1024px) {
+    .p-32 {
+        padding-left: 32px;
+        padding-right: 32px;
+    }
+}
 
 @media screen and (max-width: 768px) {
     .navbar-brand .navbar-item, .navbar-tabs .navbar-item {

@@ -12,7 +12,7 @@
 </head>
 <body>
 
-<div id="header" class="container is-fluid">
+<div id="header" class="container is-max-desktop p-32">
     <nav class="navbar" role="navigation" aria-label="main navigation">
         <div class="navbar-brand">
             <a class="navbar-item" href="/crud">
@@ -54,4 +54,4 @@
     </nav>
 </div>
 
-<div id="main" class="container is-fluid">
+<div id="main" class="container is-max-desktop p-32">

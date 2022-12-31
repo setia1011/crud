@@ -1,7 +1,7 @@
 </div>
 
 <footer class="footer">
-    <div id="footer" class="container is-fluid">
+    <div id="footer" class="container is-max-desktop p-32">
         <div class="content">
             
             <div class="columns is-mobile">
@@ -11,7 +11,7 @@
                 <div class="column is-half">
                     <a class="is-pulled-right" href="https://bulma.io">
                     <img
-                        src="https://bulma.io/images/made-with-bulma.png"
+                        src="assets/images/made-with-bulma.png"
                         alt="Made with Bulma"
                         width="128"
                         height="24">
