@@ -15,7 +15,7 @@ $q = mysqli_query($db, "SELECT * FROM user");
         </button>
         <br>
         <br>
-        <table class="table is-fullwidth is-narrow">
+        <table class="table is-fullwidth is-narrow is-striped">
             <thead>
                 <tr>
                     <th>No.</th>
@@ -35,7 +35,11 @@ $q = mysqli_query($db, "SELECT * FROM user");
                     <td><?= $user['password']; ?></td>
                     <td><?= $user['name']; ?></td>
                     <td><?= $user['email']; ?></td>
-                    <td><?= $user['status']; ?></td>
+                    <td>
+                        <span class="<?= $st = $user['status'] == 'aktif' ? 'tag is-success' : 'tag is-warning'; ?>">
+                            <?= $user['status']; ?>
+                        </span>
+                    </td>
                     <!-- <td>
                         <a class="delete" href="process.php?action=delete&id=<?= $user['id']; ?>">&#10006;</a> |
                         <a class="update" href="update.php?action=update&id=<?= $user['id']; ?>">&#9998;</a>
