@@ -4,7 +4,7 @@
     <div class="column is-half">
         <button class="button is-small">
             <span class="icon">
-                <iconify-icon icon="mdi:register"></iconify-icon>
+                <i class="fa-regular fa-user-plus"></i>
             </span>
             <span class="has-text-weight-semibold">Daftar</span>
         </button>
@@ -14,25 +14,25 @@
             <div class="field">
                 <p class="control has-icons-left has-icons-right">
                     <input class="input is-small" type="username" name="username" placeholder="Username">
-                    <span class="icon is-small is-left"><iconify-icon icon="mdi:user"></iconify-icon></span>
+                    <span class="icon is-small is-left"><i class="fa-regular fa-user"></i></span>
                 </p>
             </div>
             <div class="field">
                 <p class="control has-icons-left">
                     <input class="input is-small" type="password" name="password" placeholder="Password">
-                    <span class="icon is-small is-left"><iconify-icon icon="material-symbols:password"></iconify-icon></span>
+                    <span class="icon is-small is-left"><i class="fa-duotone fa-key"></i></span>
                 </p>
             </div>
             <div class="field">
                 <p class="control has-icons-left has-icons-right">
                     <input class="input is-small" type="text" name="name" placeholder="Name">
-                    <span class="icon is-small is-left"><iconify-icon icon="mdi:user"></iconify-icon></span>
+                    <span class="icon is-small is-left"><i class="fa-regular fa-user"></i></span>
                 </p>
             </div>
             <div class="field">
                 <p class="control has-icons-left has-icons-right">
                     <input class="input is-small" type="email" name="email" placeholder="Email">
-                    <span class="icon is-small is-left"><iconify-icon icon="ic:twotone-email"></iconify-icon></span>
+                    <span class="icon is-small is-left"><i class="fa-regular fa-envelope-dot"></i></span>
                 </p>
             </div>
             <div class="select is-small">
@@ -46,7 +46,7 @@
             <input type="hidden" name="action" value="daftar">
             <button class="button is-small is-info">
                 <span class="icon is-small">
-                    <iconify-icon icon="iconoir:submit-document"></iconify-icon>
+                    <i class="fa-regular fa-file-import"></i>
                 </span>
                 <span>Kirim</span>
             </button>

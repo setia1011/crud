@@ -9,7 +9,7 @@ $q = mysqli_query($db, "SELECT * FROM user");
     <div class="column">
         <button class="button is-small">
             <span class="icon">
-                <iconify-icon icon="mdi:format-list-text"></iconify-icon>
+            <i class="fa-light fa-address-book"></i>
             </span>
             <span class="has-text-weight-semibold">List</span>
         </button>
@@ -46,8 +46,8 @@ $q = mysqli_query($db, "SELECT * FROM user");
                     </td> -->
                     <td class="has-text-center" style="width: 90px;">
                         <div class="is-inline-flex">
-                            <button class="button is-small is-success"><iconify-icon icon="material-symbols:edit-document-rounded"></iconify-icon></button>&nbsp;
-                            <button class="button is-small is-danger"><iconify-icon icon="clarity:trash-solid"></iconify-icon></button>
+                            <button class="button is-small is-success"><i class="fa-solid fa-pen-to-square"></i></button>&nbsp;
+                            <button class="button is-small is-danger"><i class="fa-regular fa-trash-can"></i></button>
                         </div>
                     </td>
                 </tr>

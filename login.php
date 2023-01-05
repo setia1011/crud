@@ -6,8 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>CRUD: Login</title>
     <link rel="icon" type="image/png" href="assets/images/add-64.png"/>
-    <script src="assets/js/iconify-icon.min.js"></script>
-    <link rel="stylesheet" href="assets/bulma/bulma.css">
+    <link rel="stylesheet" href="assets/libs/fontawesome6/css/all.min.css">
+    <link rel="stylesheet" href="assets/libs/bulma/bulma.css">
     <link rel="stylesheet" href="assets/css/style.css">
 </head>
 <body>
@@ -26,7 +26,7 @@
                     <p class="control has-icons-left has-icons-right">
                         <input class="input" type="text" name="username" placeholder="Username">
                         <span class="icon is-small is-left">
-                            <iconify-icon icon="mdi:user-check-outline"></iconify-icon>
+                            <i class="fa-regular fa-user-alien"></i>
                         </span>
                         <span class="icon is-small is-right">
                             <i class="fas fa-check"></i>
@@ -37,12 +37,17 @@
                     <p class="control has-icons-left">
                         <input class="input" type="password" name="password" placeholder="Password">
                         <span class="icon is-small is-left">
-                            <iconify-icon icon="ic:sharp-password"></iconify-icon>
+                            <i class="fa-sharp fa-solid fa-key"></i>
                         </span>
                     </p>
                 </div>
                 <input type="hidden" name="action" value="login">
-                <input type="submit" class="button is-success" value="Login">
+                <button class="button is-success">
+                    <span class="icon">
+                        <i class="fa-regular fa-file-import"></i>
+                    </span>
+                    <span>Login</span>
+                </button>
             </form>
         </div>
     </div>
